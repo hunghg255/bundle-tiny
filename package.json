@@ -1,0 +1,21 @@
+{
+  "name": "webpacktiny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "build": "node bundle.js"
+  },
+  "keywords": [],
+  "author": "hunghg255",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/parser": "^7.22.16",
+    "@babel/preset-env": "^7.22.20",
+    "babylon": "^6.18.0"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.22.20"
+  }
+}
